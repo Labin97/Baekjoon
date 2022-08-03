@@ -6,19 +6,19 @@ int main()
 
 	scanf("%d", &n);
 
-	if(n >= 90)
+	if(n >= 90 && n <= 100)
 	{
 		printf("A");
 	}
-	else if(n <= 89 || n >= 80)
+	else if(n <= 89 && n >= 80)
 	{
 		printf("B");
 	}
-	else if(n <= 79 || n >= 70)
+	else if(n <= 79 && n >= 70)
 	{
 		printf("C");
 	}
-	else if(n <= 69 || n >= 60)
+	else if(n <= 69 && n >= 60)
 	{
 		printf("D");
 	}
